@@ -28,6 +28,10 @@ The goal is to provide clear insights into geographical areas with high pollutio
    git clone https://github.com/your-username/your-repo-name.git
    cd air-quality-analysis-and-pollution-hotspot-detection
    Usage
+##**Known Issues**
+NaN Handling:
+The project currently drops rows with missing pollutant_avg values.
+In future updates, imputation techniques could be explored instead of dropping data.
 
 
 
