@@ -28,9 +28,9 @@ The goal is to provide clear insights into geographical areas with high pollutio
    git clone https://github.com/your-username/your-repo-name.git
    cd air-quality-analysis-and-pollution-hotspot-detection
    Usage
-Prepare your pollution data:
+##Prepare your pollution data:
 
-Ensure your dataset contains at least the following columns:
+#Ensure your dataset contains at least the following columns:
 
 city
 
@@ -42,9 +42,9 @@ station
 
 pollutant_avg
 
-Run the notebook: Open and execute the DSPROJECT (2).ipynb notebook to process the data and generate the pollution hotspot map.
+#Run the notebook: Open and execute the DSPROJECT (2).ipynb notebook to process the data and generate the pollution hotspot map.
 
-View the Results:
+##View the Results:
 
 The map will display with:
 
@@ -54,9 +54,8 @@ Station names on hover.
 
 Focus zoom on major polluted areas.
 
-Project Structure
-plaintext
-Copy
+##Project Structure
+
 Edit
 ├── DSPROJECT (2).ipynb     # Main Jupyter Notebook
 ├── README.md               # Project description file
@@ -70,21 +69,21 @@ Small markers for relatively less polluted hotspots.
 
 Hover labels showing the station name.
 
-(You can add a screenshot or GIF here later for better visualization!)
 
-Known Issues
-NaN Handling:
+
+##Known Issues
+#NaN Handling:
 The project currently drops rows with missing pollutant_avg values.
 In future updates, imputation techniques could be explored instead of dropping data.
 
-Future Improvements
+##Future Improvements
 Add city-level aggregation to highlight average pollution per city instead of individual stations.
 
 Allow dynamic selection of pollutant types (e.g., PM2.5, NO2, SO2).
 
 Enable date filtering for time-series pollution trends.
 
-Contributors
+##Contributors
 [sabeena] – Initial work and maintenance
 
 
